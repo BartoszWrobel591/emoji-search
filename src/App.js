@@ -3,6 +3,7 @@ import Header from "./Header";
 import SearchInput from "./SearchInput";
 import EmojiResults from "./EmojiResults";
 import filterEmoji from "./filterEmoji";
+import LamaItem from "./LamaItem";
 
 export default class App extends PureComponent {
   constructor(props) {
@@ -21,9 +22,10 @@ export default class App extends PureComponent {
   render() {
     return (
       <div>
-        <Header />
-        <SearchInput textChange={this.handleSearchChange} />
-        <EmojiResults emojiData={this.state.filteredEmoji} />
+        <LamaItem />
+        {/*<Header />*/}
+        {/*<SearchInput textChange={this.handleSearchChange} />*/}
+        {/*<EmojiResults emojiData={this.state.filteredEmoji} />*/}
       </div>
     );
   }
