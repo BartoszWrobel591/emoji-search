@@ -26,7 +26,7 @@ export default class App extends PureComponent {
         <div>dasdasd</div>
         <div>dddd</div>
           <div>dsaddsad</div>
-          <div>dsadsa</div></div>
+          <div>dsadsa</div>
         <div>dev</div>
         <Header />
         <SearchInput textChange={this.handleSearchChange} />
