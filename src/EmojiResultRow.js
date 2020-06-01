@@ -17,7 +17,7 @@ export default class EmojiResultsRow extends PureComponent {
         data-clipboard-text={this.props.symbol}
       >
         <img alt={this.props.title} src={src} />
-        <span className="title">{this.props.title}</span>
+        {/*<span className="title">{this.props.title}</span>*/}
         <span className="info">Click to copy emoji</span>
       </div>
     );
