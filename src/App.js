@@ -26,6 +26,7 @@ export default class App extends PureComponent {
         <div>dasdasd</div>
         <div>dddd</div>
           <div>dsad</div>
+          <div>dsdsd</div>
           <div>dsadsa</div>
         <div>dev</div>
         <Header />
