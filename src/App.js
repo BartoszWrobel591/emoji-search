@@ -25,7 +25,7 @@ export default class App extends PureComponent {
         <LamaItem />
         <div>dasdasd</div>
         <div>dddd</div>
-          <div>dsaddsad</div>
+          <div>dsad</div>
           <div>dsadsa</div>
         <div>dev</div>
         <Header />
